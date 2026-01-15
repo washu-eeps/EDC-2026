@@ -1,8 +1,10 @@
-# Earth Data Challenge – Spring 2026
+---
+layout: default
+---
 
-The Earth Data Challenge (EDC) is a semester-long, team-based program hosted by GRI and EEPS at Washington University in St. Louis. Participants learn modern Earth data workflows—cloud computing, Jupyter notebooks, and remote sensing—while working collaboratively on projects using hyperspectral satellite data.
+The Earth Data Challenge (EDC) is a semester-long, team-based program hosted by GRI and EEPS. Participants learn modern Earth data workflows—cloud computing, Jupyter notebooks, and remote sensing—while working collaboratively on projects using hyperspectral satellite data.
 
-The program is designed to be accessible regardless of your starting point. No prior programming experience is required.
+No prior programming experience required.
 
 ## What You'll Learn
 
@@ -15,30 +17,23 @@ These are practical, career-relevant skills used across geospatial analytics, en
 
 ## Schedule
 
-All sessions are held during EEPS brownbag slots at **noon in Rudolph 301**.
+All sessions are at **noon in Rudolph 301**.
 
 | Date | Event |
-|------|-------|
+|:-----|:------|
 | January 30 | Introduction and Overview |
 | February 13 | Cloud Computing, Jupyter, and Google Earth Engine |
 | February 27 | Team Formation and Project Kickoff |
 | March 20 | Mid-Semester Check-in |
 | April 24 | Final Presentations and Awards |
 
-Teams will also meet independently and can attend optional help sessions throughout the semester.
-
 ## How It Works
 
-- Form a team of 2–5 students (cross-disciplinary collaboration encouraged)
-- Choose a project focused on hyperspectral data analysis
-- Develop a reproducible Jupyter notebook documenting your workflow
-- Present your results at the end of the semester
-
-We provide cloud computing access, example notebooks, curated datasets, and mentorship from faculty and staff.
+Form a team of 2–5 students, choose a project, develop a reproducible Jupyter notebook, and present your results at the end of the semester. We provide cloud computing access, example notebooks, curated datasets, and mentorship.
 
 ## Who Can Participate
 
-Open to undergraduates, graduates, and postdocs in any field—EEPS, CS, engineering, environmental studies, and beyond.
+Open to undergraduates, graduates, and postdocs in any field.
 
 ## Contact
 
