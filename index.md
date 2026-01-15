@@ -31,7 +31,7 @@ All sessions are at **noon in Rudolph 301**.
 
 Form a team of 2–5 students, choose a project, develop a reproducible Jupyter notebook, and present your results at the end of the semester. We provide cloud computing access, example notebooks, curated datasets, and mentorship.
 
-The goal is to get acquainted with modern data workflows, not to produce exhaustive research. Projects are intentionally small-scale and skill-focused. Expect a total time commitment of roughly 8–10 hours over the semester, including the scheduled sessions.
+The goal is to get acquainted with modern data workflows, not to produce exhaustive research. Projects are intentionally small-scale and skill-focused. Expect a total time commitment of roughly 10 hours over the semester, including the scheduled sessions.
 
 ## Who Can Participate
 
