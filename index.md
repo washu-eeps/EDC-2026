@@ -8,10 +8,10 @@ No prior programming experience required.
 
 ## What You'll Learn
 
-- Cloud-based data analysis using Google Cloud and Jupyter notebooks
-- Remote sensing workflows with hyperspectral data (Planet Tanager)
+- Cloud-based data analysis using Google Cloud and [Jupyter notebooks](https://jupyter.org/try-jupyter/lab/)
+- Remote sensing workflows with [hyperspectral data](https://www.planet.com/products/hyperspectral/) (Planet Tanager)
 - Reproducible, open-science practices
-- Collaboration tools including GitHub and Google Earth Engine
+- Collaboration tools including [GitHub](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) and [Google Earth Engine](https://earthengine.google.com/)
 
 These are practical, career-relevant skills used across geospatial analytics, environmental consulting, government agencies, and data science.
 
@@ -30,6 +30,8 @@ All sessions are at **noon in Rudolph 301**.
 ## How It Works
 
 Form a team of 2–5 students, choose a project, develop a reproducible Jupyter notebook, and present your results at the end of the semester. We provide cloud computing access, example notebooks, curated datasets, and mentorship.
+
+The goal is to get acquainted with modern data workflows, not to produce exhaustive research. Projects are intentionally small-scale and skill-focused. Expect a total time commitment of roughly 8–10 hours over the semester, including the scheduled sessions.
 
 ## Who Can Participate
 
