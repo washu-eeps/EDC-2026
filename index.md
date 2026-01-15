@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-![Earth Data Challenge](EDC_banner.png)
-
 
 The Earth Data Challenge (EDC) is a semester-long, team-based program hosted by GRI and EEPS. Participants learn modern Earth data workflows—cloud computing, Jupyter notebooks, and remote sensing—while working collaboratively on projects using hyperspectral satellite data.
 
