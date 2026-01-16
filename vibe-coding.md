@@ -6,7 +6,7 @@ title: Vibe Coding Guidelines
 
 LLMs may be used to generate code, but correctness must be established by you.
 
-WashU provides [AI resources](https://ai.wustl.edu) that can help you. [Vibe coding](https://www.techtarget.com/searchcio/feature/Vibe-coding-What-IT-leaders-need-to-know) is new, and [best](https://www.leanware.co/insights/best-practices-ai-software-development) and [emerging](https://www.cloudflare.com/learning/ai/ai-vibe-coding/) practices are still emerging. EEPS has condensed these into five rules. These rules apply to notebooks, scripts, cloud workflows, and command-line work. 
+WashU provides [AI resources](https://ai.wustl.edu) that can help you. [Vibe coding](https://www.techtarget.com/searchcio/feature/Vibe-coding-What-IT-leaders-need-to-know) is new, and [best](https://www.leanware.co/insights/best-practices-ai-software-development) and [emerging](https://www.cloudflare.com/learning/ai/ai-vibe-coding/) practices are still being developed. EEPS has condensed these into five rules. These rules apply to notebooks, scripts, cloud workflows, and command-line work. 
 
 ## The five rules of vibe coding
 
