@@ -37,6 +37,9 @@ The goal is to get acquainted with modern data workflows, not to produce exhaust
 
 Open to undergraduates, graduates, and postdocs in any field.
 
+## Resources
+- [Vibe Coding Guidelines](vibe-coding.md)
+
 ## Contact
 
 Questions? Reach out to [Alex Bradley](mailto:abradley@wustl.edu), [Tom Stein](tstein@wustl.edu), or [Roger Michaelides](roger.michaelides@wustl.edu
