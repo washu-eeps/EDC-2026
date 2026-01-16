@@ -5,11 +5,19 @@
 
 /* Banner styling */
 .page-header {
+  position: relative; /* required for overlay link */
   background-image: url('/EDC-2026/EDC_banner.png');
   background-size: cover;
   background-position: center top;
   padding: 8rem 1rem;
-  cursor: pointer; /* signal clickability */
+  cursor: pointer;
+}
+
+/* Full-banner clickable overlay */
+.page-header .banner-home-link {
+  position: absolute;
+  inset: 0;        /* top/right/bottom/left = 0 */
+  z-index: 1;
 }
 
 /* Hide default Cayman header text/buttons */
@@ -19,13 +27,7 @@
   display: none;
 }
 
-/* Ensure banner does not look like a link */
-a .page-header {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Heading color customization */
+/* Main content heading color */
 .main-content h1,
 .main-content h2,
 .main-content h3,
