@@ -41,7 +41,7 @@ Running successfully is not evidence of correctness.
 
 
 ### 4) You own the consequences.
-You are responsible for the **behavior and correctness of the code itself**, regardless of who or what generated it.
+You are responsible for the behavior and correctness of the code itself, regardless of who or what generated it.
 
 This includes wrong answers, hidden assumptions, and silent failures.  
 Code that runs but produces incorrect results is still your responsibility.
