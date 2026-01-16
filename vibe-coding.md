@@ -19,7 +19,7 @@ Before you ask for code, write a short spec (3–8 lines):
 - Assumptions: units, coordinate systems, time ranges, “clean data” assumptions
 - Verification: what checks would convince you it worked
 
-Why this matters: most “LLM coding failures” are actually unclear specs.
+Why this matters: most LLM coding failures are actually unclear specs.
 
 ### 2) Go small.
 Work in small, testable steps:
@@ -41,14 +41,13 @@ You must verify correctness. Minimum checks:
 If you cannot explain why the result is plausible, treat it as incorrect until proven otherwise.
 
 ### 4) You own the consequences.
-You are responsible for:
+You are responsible for the **behavior and correctness of the code itself**, regardless of who or what generated it.
 
-- Cost: avoid accidentally running large jobs; monitor usage; stop what you don’t need
-- Security: never paste secrets/keys into a prompt or notebook; use least-privilege credentials
-- Data handling: don’t overwrite raw data; write outputs to clearly labeled locations
-- Failure modes: avoid silent failures; make errors visible and interpretable
+This includes wrong answers, hidden assumptions (units, CRS, defaults, dropped data), and silent failures. Code that runs but produces incorrect results is your fault.
 
-If something would be risky to run on a shared system, it is risky in the cloud too.
+Treat model-generated code as a draft, not an authority. Assume bugs exist until you have evidence they do not. If you cannot explain *why* an answer is correct, treat it as incorrect.
+
+You are also responsible for cost, security, and data safety. If something would be risky or irreversible to run on a shared system, it is risky in the cloud too.
 
 ### 5) No explanation = no credit.
 If you submit code, you must be able to explain:
