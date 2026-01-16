@@ -11,53 +11,53 @@ These rules apply to notebooks, scripts, cloud workflows, and command-line work.
 ## The five rules of vibe coding
 
 ### 1) Think first. Prompt second.
-Before you ask for code, write a short spec (3–8 lines):
+Before generating code, define the problem:
 
-- Goal: what you are trying to compute or produce
-- Inputs: data sources, file formats, parameters
-- Outputs: expected files/plots/tables and where they will live
-- Assumptions: units, coordinate systems, time ranges, “clean data” assumptions
-- Verification: what checks would convince you it worked
+- What are the inputs?
+- What is the expected output?
+- What assumptions are you making?
+- How will you know the result is correct?
 
-Why this matters: most LLM coding failures are actually unclear specs.
+Unclear prompts lead to confident but wrong code.
 
 ### 2) Go small.
 Work in small, testable steps:
 
-- Generate one chunk of code
+- Generate a minimal piece of code
 - Run it
-- Confirm it did what you expected
-- Only then move to the next chunk
+- Verify the result
+- Then proceed
 
-In cloud settings, always start with a small sample or a small spatial/temporal subset before scaling up.
+Always start with a reduced scope, small dataset, or simplified case before scaling up.
 
 ### 3) Trust nothing without checking.
-You must verify correctness. Minimum checks:
+You must verify correctness. At minimum:
 
-- A tiny “toy” case where you already know the answer (or can compute it by hand)
-- An edge case (empty file, missing values, single-row input, extreme parameter)
-- A sanity check on outputs (ranges, units, shapes, counts, plots)
+- Test a simple case with a known or easily reasoned answer
+- Test an edge case (empty input, extreme values, missing data)
+- Sanity-check outputs (ranges, types, sizes, trends, plausibility)
 
-If you cannot explain why the result is plausible, treat it as incorrect until proven otherwise.
+Running successfully is not evidence of correctness.
+
 
 ### 4) You own the consequences.
 You are responsible for the **behavior and correctness of the code itself**, regardless of who or what generated it.
 
-This includes wrong answers, hidden assumptions (units, CRS, defaults, dropped data), and silent failures. If a code runs but produces incorrect results, you are responsible.
+This includes wrong answers, hidden assumptions, and silent failures.  
+Code that runs but produces incorrect results is still your responsibility.
 
-Treat model-generated code as a draft, not an authority. Assume bugs exist until you have evidence they do not. If you cannot explain *why* an answer is correct, treat it as incorrect.
+You are also responsible for secondary consequences (cost, data loss, security), but correctness comes first.
 
-You are also responsible for cost, security, and data safety. If something would be risky or irreversible to run on a shared system, it is risky in the cloud too.
 
 ### 5) No explanation = no credit.
 If you submit code, you must be able to explain:
 
-- What each major step does (in plain language)
-- Why it answers the spec
-- What assumptions it makes
-- The main limitations and likely failure modes
+- What each major step does
+- Why it answers the original question
+- What assumptions it relies on
+- Where it might fail or give misleading results
 
-If you cannot explain your own pipeline, you have not finished the assignment.
+If you cannot explain it, you do not understand it.
 
 ## A practical workflow that satisfies the rules
 
@@ -67,27 +67,35 @@ If you cannot explain your own pipeline, you have not finished the assignment.
 4. After each step, add one verification check.
 5. Only scale up after the small-case run is correct.
 
-## What to include in submissions (recommended)
+## What to include in submissions
 
-- A short “Verification” section: what you checked and what you observed
-- A “Known limitations” note: what might break or be wrong
-- A brief note on LLM assistance (what you asked it to do)
+- A short **Verification** section: what you checked and what you observed
+- A **Known limitations** note: what might break, fail silently, or give misleading results
 
 ## Common failure modes to watch for
 
-- Wrong units or coordinate reference system
-- Silent type conversions (strings to numbers, NaNs dropped, integer overflow)
-- Off-by-one indexing, time-zone or date parsing errors
-- Data leakage (train/test contamination) in ML workflows
-- Accidental large-scale compute (looping over full-resolution data unintentionally)
+- **Wrong assumptions**  
+  Inconsistent units, conventions, or defaults.
+
+- **Data changing silently**  
+  Values dropped, rounded, or altered without notice.
+
+- **Misalignment errors**  
+  Things not lining up; off-by-one mistakes.
+
+- **Edge cases**  
+  Empty inputs, extreme values, or special cases breaking the logic.
+
+- **False success**  
+  Code runs but produces incomplete or misleading results.
 
 ## If you are unsure
 
 Stop and reduce scope:
 
-- Run on 1–5 files instead of all files
-- Run on a small region / short time window
-- Print intermediate outputs
-- Ask for an explanation of what the code is doing, then verify it yourself
+- Run on a very small subset instead of everything
+- Simplify the problem or inputs as much as possible
+- Print or inspect intermediate results
+- Explain what each step is supposed to be doing, then verify that it actually does that
 
 Being cautious and correct beats being fast and wrong.
