@@ -42,5 +42,5 @@ Open to undergraduates, graduates, and postdocs in any field.
 
 ## Contact
 
-Questions? Reach out to [Alex Bradley](mailto:abradley@wustl.edu), [Tom Stein](tstein@wustl.edu), or [Roger Michaelides](roger.michaelides@wustl.edu
-).
+Questions? Reach out to [Alex Bradley](mailto:abradley@wustl.edu), [Tom Stein](tstein@wustl.edu), [Roger Michaelides](roger.michaelides@wustl.edu
+), [Tyler Meng](mengt@wustl.edu), or [Alex Nguyen](a.nguyen@wustl.edu).
