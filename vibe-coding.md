@@ -4,7 +4,7 @@ title: Vibe Coding Guidelines
 
 # Vibe Coding Guidelines
 
-We encourage using a LLM to generate code so you can focus on the scientific and computational ideas. This is allowed. What is not allowed is treating generated code as correct by default.
+LLMs may be used to generate code, but correctness must be established by you.
 
 These rules apply to notebooks, scripts, cloud workflows, and command-line work. WashU provides [AI resources](https://ai.wustl.edu) that can help you. [Vibe coding](https://www.techtarget.com/searchcio/feature/Vibe-coding-What-IT-leaders-need-to-know) is new, and [best](https://www.leanware.co/insights/best-practices-ai-software-development) and [emerging](https://www.cloudflare.com/learning/ai/ai-vibe-coding/) practices are still emerging. EEPS has condensed these into five rules. 
 
