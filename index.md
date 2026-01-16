@@ -4,7 +4,7 @@ layout: default
 
 The Earth Data Challenge (EDC) is a semester-long, team-based program hosted by [GRI](https://geospatial.wustl.edu) and [EEPS](https://eeps.wustl.edu). Participants learn modern Earth data workflows - cloud computing, Jupyter notebooks, and remote sensing - while working collaboratively on projects using hyperspectral satellite data.
 
-No prior programming experience required.
+Open to WashU undergraduate students, graduate students, and postdocs. No prior programming experience required.
 
 ## What You'll Learn
 
