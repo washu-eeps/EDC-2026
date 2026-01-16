@@ -43,7 +43,7 @@ If you cannot explain why the result is plausible, treat it as incorrect until p
 ### 4) You own the consequences.
 You are responsible for the **behavior and correctness of the code itself**, regardless of who or what generated it.
 
-This includes wrong answers, hidden assumptions (units, CRS, defaults, dropped data), and silent failures. Code that runs but produces incorrect results is your fault.
+This includes wrong answers, hidden assumptions (units, CRS, defaults, dropped data), and silent failures. If a code runs but produces incorrect results, you are responsible.
 
 Treat model-generated code as a draft, not an authority. Assume bugs exist until you have evidence they do not. If you cannot explain *why* an answer is correct, treat it as incorrect.
 
