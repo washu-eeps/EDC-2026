@@ -39,6 +39,7 @@ Open to undergraduates, graduates, and postdocs in any field.
 
 ## Resources
 - [Vibe Coding Guidelines](vibe-coding.md)
+- [Using Git](using-git.md)
 
 ## Contact
 
