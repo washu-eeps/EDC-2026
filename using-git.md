@@ -106,7 +106,7 @@ Once Alex confirms your repo is ready, you'll "clone" it into JupyterLab. This d
 3. Do your work!
 4. Press **Ctrl+S** (or **Cmd+S** on Mac) to save frequently
 
-### Saving to Git (Stage â†’ Commit â†’ Push)
+### Saving to Git (Stage -> Commit -> Push)
 
 When you've made progress you want to save:
 
@@ -145,7 +145,7 @@ Before starting work each session, pull the latest changes:
 | Save notebook | Ctrl+S (Cmd+S on Mac) |
 | Open Git panel | Click Git icon in left sidebar |
 | Stage a file | Click "+" next to the file |
-| Commit | Type message â†’ Click "Commit" |
+| Commit | Type message -> Click "Commit" |
 | Push | Click cloud-with-up-arrow icon |
 | Pull | Click cloud-with-down-arrow icon |
 
