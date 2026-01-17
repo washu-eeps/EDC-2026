@@ -5,59 +5,78 @@ title: Git Workflow in JupyterLab
 
 # Git Workflow in JupyterLab
 
-This guide walks you through using Git in JupyterLab to save and version your work. No terminal required—everything uses the visual Git interface.
+This guide walks you through using Git to save and version your team's work. No terminal required—everything uses JupyterLab's visual Git interface.
 
 ---
 
-## One-Time Setup
+## What is Git?
 
-### 1. Git Identity (Ask Your Instructor First)
+Git is a version control system that tracks changes to your files. Think of it as a detailed "undo history" that also backs up your work online.
 
-The first time you try to commit, you may see an error:
+**Key concepts:**
 
-```
-Author identity unknown
-*** Please tell me who you are.
-```
+- **Repository (repo)**: A folder whose contents are tracked by Git
+- **Stage**: Select which changes you want to save
+- **Commit**: Save a snapshot of those changes with a short description
+- **Push**: Upload your commits to GitHub so they're backed up online
+- **Pull**: Download the latest changes from GitHub (e.g., your teammate's work)
 
-**This is normal.** Send your instructor your name and email address. They will configure your Git identity on the server. Once done, you won't see this error again.
+Think of it like packing a box: you *stage* items to pack, *commit* seals the box with a label, and *push* ships it to storage.
 
-### 2. Create a GitHub Account
+For a deeper dive, see [GitHub's Git Handbook](https://docs.github.com/en/get-started/using-git/about-git).
 
-If you don't already have one:
+---
+
+## Getting Started (One-Time Setup)
+
+Each team needs ONE shared GitHub account. Designate one team member to create it.
+
+### Step 1: Create a Team GitHub Account
 
 1. Go to [github.com](https://github.com)
 2. Click **"Sign up"**
-3. Follow the prompts to create your account
-4. Verify your email address
+3. Create an account for your team:
+   - **Username**: Something like `edc-team-yourteamname`
+   - **Email**: Use a team member's email (they'll receive notifications)
+4. Verify the email address
+5. **Share the login credentials with your teammates** (everyone will use this same account)
 
-### 3. Create a Personal Access Token (PAT)
+### Step 2: Tell Your Instructor
 
-GitHub requires a token (not your password) for pushing from JupyterLab.
+Send your instructor:
+- Your team name
+- Your team's GitHub username
 
-1. Go to [github.com/settings/tokens](https://github.com/settings/tokens)
-2. Click **"Tokens (classic)"** in the left sidebar
-3. Click **"Generate new token"** → **"Generate new token (classic)"**
-4. Fill in:
-   - **Note:** `JupyterLab` (or any name to help you remember)
-   - **Expiration:** 90 days (or your preference)
-   - **Scopes:** Check the box for **`repo`**
-5. Click **"Generate token"**
-6. **COPY THE TOKEN NOW**—you won't see it again!
-7. Save it somewhere safe (password manager, secure note, etc.)
+They will create a repository for your team and give you access.
+
+### Step 3: Create a Personal Access Token (PAT)
+
+GitHub requires a token (not your password) for connecting from JupyterLab.
+
+1. Sign into your team's GitHub account
+2. Go to [github.com/settings/tokens](https://github.com/settings/tokens)
+3. Click **"Tokens (classic)"** in the left sidebar
+4. Click **"Generate new token"** → **"Generate new token (classic)"**
+5. Fill in:
+   - **Note**: `JupyterLab` (or any name to help you remember)
+   - **Expiration**: 90 days (or longer if you prefer)
+   - **Scopes**: Check the box for **`repo`**
+6. Click **"Generate token"**
+7. **COPY THE TOKEN NOW**—you won't see it again!
+8. Save it somewhere your whole team can access it (shared note, etc.)
 
 ---
 
-## Cloning a Repository
+## Cloning Your Team's Repository
 
-"Cloning" downloads a copy of a repository to your JupyterLab workspace.
+Once your instructor confirms your repo is ready, you'll "clone" it into JupyterLab. This downloads a copy to your workspace.
 
 ### Step 1: Get the Repository URL
 
-1. Go to your repository on GitHub
+1. Go to your team's repository on GitHub (your instructor will give you the link, e.g., `https://github.com/washu-eeps/team-yourteamname`)
 2. Click the green **"Code"** button
 3. Make sure **HTTPS** is selected
-4. Copy the URL (looks like `https://github.com/washu-eeps/your-repo-name.git`)
+4. Click the copy button to copy the URL
 
 ### Step 2: Clone in JupyterLab
 
@@ -66,46 +85,53 @@ GitHub requires a token (not your password) for pushing from JupyterLab.
 3. Click **"Clone a Repository"**
 4. Paste the URL you copied
 5. Click **"Clone"**
-6. When prompted:
-   - **Username:** Your GitHub username
-   - **Password:** Paste your Personal Access Token (NOT your GitHub password)
-7. A new folder will appear in your file browser with the repository name
+6. When prompted for credentials:
+   - **Username**: Your team's GitHub username
+   - **Password**: Paste your Personal Access Token (NOT the GitHub password)
+7. A new folder will appear in your file browser with your repository name
+
+**Important**: Each team member should clone the repo to their own workspace in JupyterLab. You'll all be working on the same files, but each person has their own local copy.
 
 ---
 
 ## Daily Workflow
 
-Once you've cloned a repository, here's how you save your work.
-
-### Step 1: Open Your Notebook
+### Working on Your Notebook
 
 1. In the file browser (folder icon), navigate into your repository folder
 2. Double-click the notebook file to open it
 3. Do your work!
+4. Press **Ctrl+S** (or **Cmd+S** on Mac) to save frequently
 
-### Step 2: Save Your Notebook
+### Saving to Git (Stage → Commit → Push)
 
-Press **Ctrl+S** (or **Cmd+S** on Mac) to save.
+When you've made progress you want to save:
 
-### Step 3: Stage Your Changes
+**1. Stage your changes**
+   - Click the **Git icon** in the left sidebar
+   - You'll see changed files listed under **"Changed"**
+   - Hover over each file and click the **"+"** button to stage it
+   - The file moves to **"Staged"**
+
+**2. Commit your changes**
+   - Find the **"Summary"** text box at the bottom of the Git panel
+   - Type a short message describing what you did (e.g., "Added temperature analysis" or "Fixed plotting bug")
+   - Click **"Commit"**
+
+**3. Push to GitHub**
+   - Click the **cloud icon with an up arrow** in the Git panel toolbar
+   - If prompted, enter your team's GitHub username and PAT
+   - Your changes are now saved on GitHub!
+
+### Getting Your Teammate's Changes (Pull)
+
+Before starting work each session, pull the latest changes:
 
 1. Click the **Git icon** in the left sidebar
-2. You'll see your changed files listed under **"Changed"**
-3. Hover over the file and click the **"+"** button to stage it
-4. The file moves to **"Staged"**
+2. Click the **cloud icon with a down arrow** (Pull button)
+3. Your local copy updates with your teammates' work
 
-### Step 4: Commit Your Changes
-
-1. In the Git panel, find the **"Summary"** text box at the bottom
-2. Type a short message describing what you did (e.g., "Completed Part 1" or "Fixed analysis bug")
-3. Click **"Commit"**
-
-### Step 5: Push to GitHub
-
-1. Look for the **cloud icon with an up arrow** in the Git panel toolbar
-2. Click it
-3. If prompted for credentials, enter your GitHub username and PAT again
-4. Your changes are now on GitHub!
+**Tip**: Always pull before you start working, and push when you're done. This avoids conflicts.
 
 ---
 
@@ -122,57 +148,47 @@ Press **Ctrl+S** (or **Cmd+S** on Mac) to save.
 
 ---
 
-## Pulling Changes (Getting Updates)
-
-If your instructor updates the repository, or if teammates push changes:
-
-1. Click the **Git icon** in JupyterLab
-2. Click the **cloud icon with a down arrow** (or "Pull" button)
-3. Your local copy will update with the latest changes
-
----
-
 ## Troubleshooting
-
-### "Author identity unknown"
-
-Your instructor needs to configure your Git identity. Send them your name and email.
 
 ### "Authentication failed"
 
-- Make sure you're using your **Personal Access Token**, not your GitHub password
+- Make sure you're using your **Personal Access Token**, not the GitHub password
 - Check that the token hasn't expired
-- Verify the token has the `repo` scope
+- Verify the token has the `repo` scope checked
 
-### "Changes not showing up"
+### "Changes not showing up" in the Git panel
 
 - Did you save the notebook? (Ctrl+S)
-- Refresh the Git panel by clicking elsewhere and back
+- Click somewhere else and back to refresh the panel
 
 ### "Merge conflict"
 
-This happens if you and a teammate edited the same part of a file. Ask your instructor for help resolving it.
+This happens if you and a teammate edited the same part of a file at the same time. Ask your instructor for help resolving it.
+
+**To avoid conflicts**: Coordinate with your team about who's working on what, and always pull before you start working.
 
 ### "Repository not found"
 
 - Check that the URL is correct
-- Make sure you have access to the repository
+- Make sure your instructor has added your team's GitHub account as a collaborator
+
+### Accidentally deleted something?
+
+If you pushed it to GitHub before deleting, you can recover it! Ask your instructor for help.
 
 ---
 
-## Why Use Git?
+## Why Bother With Git?
 
-Git provides a safety net for your work:
-
-- **Version history**: Go back to any previous version if something breaks
 - **Backup**: Your work is saved on GitHub, not just the shared server
-- **Collaboration**: Multiple team members can work on the same project
-- **Push often**: If someone accidentally deletes your files on the server, you can restore from GitHub
+- **Version history**: Go back to any previous version if something breaks
+- **Collaboration**: See what your teammates changed and when
+- **Safety net**: If someone accidentally deletes files on the server, you can restore from GitHub
 
-**Rule of thumb:** Commit and push whenever you finish a working chunk of code. Don't wait until the end!
+**Rule of thumb**: Commit and push whenever you finish a working chunk of code. Don't wait until the end!
 
 ---
 
 ## Need Help?
 
-Contact your instructor or TA if you get stuck.
+Contact your instructor if you get stuck.
