@@ -195,4 +195,4 @@ If you pushed it to GitHub before deleting, you can recover it! Ask your instruc
 
 ## Need Help?
 
-Contact your instructor if you get stuck.
+Contact one of the EDC leads if you get stuck.
