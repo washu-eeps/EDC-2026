@@ -36,7 +36,7 @@ Each team needs ONE shared GitHub account. Designate one team member to create i
 1. Go to [github.com](https://github.com)
 2. Click **"Sign up"**
 3. Create an account for your team:
-   - **Username**: Something like `edc-team-yourteamname`
+   - **Username**: Something like `edc-yourteamname`
    - **Email**: Use a team member's email (they'll receive notifications)
 4. Verify the email address
 5. **Share the login credentials with your teammates** (everyone will use this same account)
