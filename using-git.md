@@ -47,7 +47,7 @@ Send Alex:
 - Your team name
 - Your team's GitHub username
 
-He will create a repository for your team in the **washu-eeps** organization and add your team's GitHub account as a collaborator. The repo lives in `washu-eeps` (not in your team's account)—your team account is just used for login credentials.
+He will create a repository for your team in the **washu-eeps** organization and add your team's GitHub account as a collaborator. The repo lives in `washu-eeps` (not in your team's account) - your team account is just used for login credentials.
 
 ### Step 3: Create a Personal Access Token (PAT)
 
@@ -73,7 +73,7 @@ Once Alex confirms your repo is ready, you'll "clone" it into JupyterLab. This d
 
 ### Step 1: Get the Repository URL
 
-1. Go to the repository Alex created for your team (he'll send you the link—it will look like `https://github.com/washu-eeps/team-yourteamname`)
+1. Go to the repository Alex created for your team (he'll send you the link - it will look like `https://github.com/washu-eeps/yourteamname`)
 2. Click the green **"Code"** button
 3. Make sure **HTTPS** is selected
 4. Click the copy button to copy the URL
@@ -90,7 +90,10 @@ Once Alex confirms your repo is ready, you'll "clone" it into JupyterLab. This d
    - **Password**: Paste your Personal Access Token (NOT the GitHub password)
 7. A new folder will appear in your file browser with your repository name
 
-**Important**: Each team member should clone the repo to their own workspace in JupyterLab. You'll all be working on the same files, but each person has their own local copy. When you push, your changes go to the shared repo in `washu-eeps`.
+
+**Important**: Your team clones the repo once into JupyterLab. Since you're all sharing the same JupyterLab environment, you'll work from this single local copy. When you push, your changes go to the shared repo in `washu-eeps`.
+
+**Avoid working simultaneously**: If two people edit the same notebook at the same time, you'll create merge conflicts. Git can handle these, but resolving them requires command-line tools you don't have access to here. Coordinate with your team - take turns or work together at the same screen.
 
 ---
 
