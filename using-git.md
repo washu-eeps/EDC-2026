@@ -5,7 +5,7 @@ title: Git Workflow in JupyterLab
 
 # Git Workflow in JupyterLab
 
-This guide walks you through using Git to save and version your team's work. No terminal required—everything uses JupyterLab's visual Git interface.
+This guide walks you through using Git to save and version your team's work. No terminal required - everything uses JupyterLab's visual Git interface.
 
 ---
 
@@ -41,13 +41,13 @@ Each team needs ONE shared GitHub account. Designate one team member to create i
 4. Verify the email address
 5. **Share the login credentials with your teammates** (everyone will use this same account)
 
-### Step 2: Tell Your Instructor
+### Step 2: Tell Alex B.
 
-Send your instructor:
+Send Alex:
 - Your team name
 - Your team's GitHub username
 
-They will create a repository for your team and give you access.
+He will create a repository for your team and give you access.
 
 ### Step 3: Create a Personal Access Token (PAT)
 
@@ -59,7 +59,7 @@ GitHub requires a token (not your password) for connecting from JupyterLab.
 4. Click **"Generate new token"** → **"Generate new token (classic)"**
 5. Fill in:
    - **Note**: `JupyterLab` (or any name to help you remember)
-   - **Expiration**: 90 days (or longer if you prefer)
+   - **Expiration**: 90 days (long enough to get to the end of April)
    - **Scopes**: Check the box for **`repo`**
 6. Click **"Generate token"**
 7. **COPY THE TOKEN NOW**—you won't see it again!
@@ -69,11 +69,11 @@ GitHub requires a token (not your password) for connecting from JupyterLab.
 
 ## Cloning Your Team's Repository
 
-Once your instructor confirms your repo is ready, you'll "clone" it into JupyterLab. This downloads a copy to your workspace.
+Once Alex confirms your repo is ready, you'll "clone" it into JupyterLab. This downloads a copy to your workspace.
 
 ### Step 1: Get the Repository URL
 
-1. Go to your team's repository on GitHub (your instructor will give you the link, e.g., `https://github.com/washu-eeps/team-yourteamname`)
+1. Go to your team's repository on GitHub (Alex will give you the link, e.g., `https://github.com/washu-eeps/team-yourteamname`)
 2. Click the green **"Code"** button
 3. Make sure **HTTPS** is selected
 4. Click the copy button to copy the URL
