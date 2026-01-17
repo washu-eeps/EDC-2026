@@ -47,7 +47,7 @@ Send Alex:
 - Your team name
 - Your team's GitHub username
 
-He will create a repository for your team and give you access.
+He will create a repository for your team in the **washu-eeps** organization and add your team's GitHub account as a collaborator. The repo lives in `washu-eeps` (not in your team's account)—your team account is just used for login credentials.
 
 ### Step 3: Create a Personal Access Token (PAT)
 
@@ -56,24 +56,24 @@ GitHub requires a token (not your password) for connecting from JupyterLab.
 1. Sign into your team's GitHub account
 2. Go to [github.com/settings/tokens](https://github.com/settings/tokens)
 3. Click **"Tokens (classic)"** in the left sidebar
-4. Click **"Generate new token"** → **"Generate new token (classic)"**
+4. Click **"Generate new token"** â†’ **"Generate new token (classic)"**
 5. Fill in:
    - **Note**: `JupyterLab` (or any name to help you remember)
    - **Expiration**: 90 days (long enough to get to the end of April)
    - **Scopes**: Check the box for **`repo`**
 6. Click **"Generate token"**
-7. **COPY THE TOKEN NOW**—you won't see it again!
+7. **COPY THE TOKEN NOW**â€”you won't see it again!
 8. Save it somewhere your whole team can access it (shared note, etc.)
 
 ---
 
-## Cloning Your Team's Repository
+## Cloning the Repository
 
 Once Alex confirms your repo is ready, you'll "clone" it into JupyterLab. This downloads a copy to your workspace.
 
 ### Step 1: Get the Repository URL
 
-1. Go to your team's repository on GitHub (Alex will give you the link, e.g., `https://github.com/washu-eeps/team-yourteamname`)
+1. Go to the repository Alex created for your team (he'll send you the link—it will look like `https://github.com/washu-eeps/team-yourteamname`)
 2. Click the green **"Code"** button
 3. Make sure **HTTPS** is selected
 4. Click the copy button to copy the URL
@@ -90,7 +90,7 @@ Once Alex confirms your repo is ready, you'll "clone" it into JupyterLab. This d
    - **Password**: Paste your Personal Access Token (NOT the GitHub password)
 7. A new folder will appear in your file browser with your repository name
 
-**Important**: Each team member should clone the repo to their own workspace in JupyterLab. You'll all be working on the same files, but each person has their own local copy.
+**Important**: Each team member should clone the repo to their own workspace in JupyterLab. You'll all be working on the same files, but each person has their own local copy. When you push, your changes go to the shared repo in `washu-eeps`.
 
 ---
 
@@ -103,7 +103,7 @@ Once Alex confirms your repo is ready, you'll "clone" it into JupyterLab. This d
 3. Do your work!
 4. Press **Ctrl+S** (or **Cmd+S** on Mac) to save frequently
 
-### Saving to Git (Stage → Commit → Push)
+### Saving to Git (Stage â†’ Commit â†’ Push)
 
 When you've made progress you want to save:
 
@@ -142,7 +142,7 @@ Before starting work each session, pull the latest changes:
 | Save notebook | Ctrl+S (Cmd+S on Mac) |
 | Open Git panel | Click Git icon in left sidebar |
 | Stage a file | Click "+" next to the file |
-| Commit | Type message → Click "Commit" |
+| Commit | Type message â†’ Click "Commit" |
 | Push | Click cloud-with-up-arrow icon |
 | Pull | Click cloud-with-down-arrow icon |
 
@@ -169,8 +169,9 @@ This happens if you and a teammate edited the same part of a file at the same ti
 
 ### "Repository not found"
 
-- Check that the URL is correct
-- Make sure your instructor has added your team's GitHub account as a collaborator
+- Check that the URL is correct (should start with `https://github.com/washu-eeps/`)
+- Make sure you accepted the collaborator invitation email from GitHub
+- Verify Alex has added your team's GitHub account as a collaborator
 
 ### Accidentally deleted something?
 
