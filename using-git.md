@@ -62,7 +62,7 @@ GitHub requires a token (not your password) for connecting from JupyterLab.
    - **Expiration**: 90 days (long enough to get to the end of April)
    - **Scopes**: Check the box for **`repo`**
 6. Click **"Generate token"**
-7. **COPY THE TOKEN NOW**â€”you won't see it again!
+7. **COPY THE TOKEN NOW** - you won't see it again!
 8. Save it somewhere your whole team can access it (shared note, etc.)
 
 ---
