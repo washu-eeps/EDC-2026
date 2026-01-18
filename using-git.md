@@ -56,7 +56,7 @@ GitHub requires a token (not your password) for connecting from JupyterLab.
 1. Sign into your team's GitHub account
 2. Go to [github.com/settings/tokens](https://github.com/settings/tokens)
 3. Click **"Tokens (classic)"** in the left sidebar
-4. Click **"Generate new token"** â†’ **"Generate new token (classic)"**
+4. Click **"Generate new token"** -> **"Generate new token (classic)"**
 5. Fill in:
    - **Note**: `JupyterLab` (or any name to help you remember)
    - **Expiration**: 90 days (long enough to get to the end of April)
