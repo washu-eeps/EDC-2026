@@ -14,7 +14,7 @@ No prior experience required.
 - Data analysis and visualization, including [hyperspectral data](https://www.planet.com/products/hyperspectral/) (Planet Tanager)
 - Version control with [Git/GitHub](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
 - [Reproducible](https://the-turing-way.netlify.app/), [open-science](https://www.go-fair.org/fair-principles/) practices
-- Collaborative technical project work — skills that translate directly to research and industry careers
+- Collaborative technical project skills that translate directly to research and industry careers
 
 These are practical, career-relevant skills used in geoscience, geospatial analytics, environmental consulting, government agencies, data science, and many other fields.
 
