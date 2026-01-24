@@ -9,7 +9,7 @@ No prior experience required.
 ## What EDC will cover
 
 - Cloud computing with [Google Cloud Platform](https://cloud.google.com/vertex-ai) and [Jupyter notebooks](https://jupyter.org/try-jupyter/lab/)
-- [AI-assisted coding](vibe-coding.md) workflows
+- [AI-assisted coding](vibe-coding.md) and analysis
 - [Google Earth Engine](https://earthengine.google.com/) and Python programming
 - Data analysis and visualization, including [hyperspectral data](https://www.planet.com/products/hyperspectral/) (Planet Tanager)
 - Version control with [Git/GitHub](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
