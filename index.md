@@ -16,7 +16,7 @@ No prior experience required.
 - [Reproducible](https://the-turing-way.netlify.app/), [open-science](https://www.go-fair.org/fair-principles/) practices
 - Collaborative technical project work — skills that translate directly to research and industry careers
 
-These are practical, career-relevant skills used across geospatial analytics, environmental consulting, government agencies, and data science.
+These are practical, career-relevant skills used in geoscience, geospatial analytics, environmental consulting, government agencies, data science, and many other fields.
 
 ## Schedule
 
