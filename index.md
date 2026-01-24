@@ -2,17 +2,19 @@
 layout: default
 ---
 
-The Earth Data Challenge (EDC) is a semester-long, team-based program hosted by [GRI](https://geospatial.wustl.edu) and [EEPS](https://eeps.wustl.edu). Participants learn modern Earth data workflows - cloud computing, Jupyter notebooks, and remote sensing - while working collaboratively on projects using hyperspectral satellite data.
+The Earth Data Challenge (EDC) is a semester-long, team-based program hosted by [GRI](https://geospatial.wustl.edu) and [EEPS](https://eeps.wustl.edu). EDC is a team-based program focused on AI-assisted coding, cloud computing, and data analysis. 
 
 No prior programming experience required.
 
 ## What EDC will cover
 
-- Cloud-based data analysis using [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai) and [Jupyter notebooks](https://jupyter.org/try-jupyter/lab/)
-- [AI-assisted](vibe-coding.md) coding 
-- Remote sensing workflows with [hyperspectral data]([https://www.planet.com/products/hyperspectral/](https://www.planet.com/constellations/tanager/)) (Planet Tanager)
-- Reproducible, open-science practices
-- Collaboration tools including [GitHub](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) and [Google Earth Engine](https://earthengine.google.com/)
+- Cloud computing with [Google Cloud Platform](https://cloud.google.com/vertex-ai) and [Jupyter notebooks](https://jupyter.org/try-jupyter/lab/)
+- [AI-assisted coding](vibe-coding.md) workflows
+- [Google Earth Engine](https://earthengine.google.com/) and Python programming
+- Satellite data analysis and visualization, including [hyperspectral data](https://www.planet.com/products/hyperspectral/) (Planet Tanager)
+- Version control with [Git/GitHub](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
+- [Reproducible](https://the-turing-way.netlify.app/), [open-science](https://www.go-fair.org/fair-principles/) practices
+- Collaborative technical project work — skills that translate directly to research and industry careers
 
 These are practical, career-relevant skills used across geospatial analytics, environmental consulting, government agencies, and data science.
 
@@ -28,11 +30,13 @@ All sessions are at **noon in Rudolph 301**.
 | March 20 | Mid-Semester Check-in |
 | April 24 | Final Presentations and Awards |
 
-## How It Works
 
+## How It Works
 Form a team of 2–5 students, choose a project, develop a reproducible Jupyter notebook, and present your results at the end of the semester. We provide cloud computing access, example notebooks, curated datasets, and mentorship.
 
-The goal is to get acquainted with modern data workflows, not to produce exhaustive research. Projects are intentionally small-scale and skill-focused. Expect a total time commitment of roughly 10-12 hours total over the semester, including the scheduled sessions.
+The goal is to get acquainted with modern data workflows, not to produce exhaustive research. Projects are intentionally small-scale and skill-focused. Expect a total time commitment of roughly 10–12 hours over the semester, including the scheduled sessions. 
+
+We'll feature [Planet Tanager](https://www.planet.com/products/hyperspectral/) hyperspectral imagery in our tutorials, but teams are free to work with any publicly available cloud datasets that fit their interests.
 
 ## Who Can Participate
 
