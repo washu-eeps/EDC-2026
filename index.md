@@ -6,9 +6,10 @@ The Earth Data Challenge (EDC) is a semester-long, team-based program hosted by 
 
 No prior programming experience required.
 
-## What You'll Learn
+## What EDC will cover
 
 - Cloud-based data analysis using [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai) and [Jupyter notebooks](https://jupyter.org/try-jupyter/lab/)
+- [AI-assisted](vibe-coding.md) coding 
 - Remote sensing workflows with [hyperspectral data]([https://www.planet.com/products/hyperspectral/](https://www.planet.com/constellations/tanager/)) (Planet Tanager)
 - Reproducible, open-science practices
 - Collaboration tools including [GitHub](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) and [Google Earth Engine](https://earthengine.google.com/)
