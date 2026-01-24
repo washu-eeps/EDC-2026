@@ -24,10 +24,10 @@ All sessions are at **noon in Rudolph 301**.
 
 | Date | Event |
 |:-----|:------|
-| January 30 | Introduction and Overview |
+| January 30 | Overview, Intro to Cloud Computing, Remote Sensing |
 | February 13 | Cloud Computing, Jupyter, and Google Earth Engine |
-| February 27 | Team Formation and Project Kickoff |
-| March 20 | Mid-Semester Check-in |
+| February 27 | Team Formation, mentoring, and project kickoffs |
+| March 20 | Team updates, mentoring, and questions |
 | April 24 | Final Presentations and Awards |
 
 
