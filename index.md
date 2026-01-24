@@ -11,7 +11,7 @@ No prior experience required.
 - Cloud computing with [Google Cloud Platform](https://cloud.google.com/vertex-ai) and [Jupyter notebooks](https://jupyter.org/try-jupyter/lab/)
 - [AI-assisted coding](vibe-coding.md) workflows
 - [Google Earth Engine](https://earthengine.google.com/) and Python programming
-- Satellite data analysis and visualization, including [hyperspectral data](https://www.planet.com/products/hyperspectral/) (Planet Tanager)
+- Data analysis and visualization, including [hyperspectral data](https://www.planet.com/products/hyperspectral/) (Planet Tanager)
 - Version control with [Git/GitHub](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
 - [Reproducible](https://the-turing-way.netlify.app/), [open-science](https://www.go-fair.org/fair-principles/) practices
 - Collaborative technical project work — skills that translate directly to research and industry careers
