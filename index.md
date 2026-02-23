@@ -36,7 +36,7 @@ Form a team of 2–5 students, choose a project, develop a reproducible Jupyter 
 
 The goal is to get acquainted with modern data workflows, not to produce exhaustive research. Projects are intentionally small-scale and skill-focused. Expect a total time commitment of roughly 10–12 hours over the semester, including the scheduled sessions. 
 
-We are excited about [Planet Tanager](https://www.planet.com/products/hyperspectral/) hyperspectral imagery as a new and excited data source, but teams are free to work with any publicly available cloud-hosted Earth datasets that fit their interests.
+We are excited about [Planet Tanager](https://www.planet.com/products/hyperspectral/) hyperspectral imagery as a new data source, but teams are free to work with any publicly available cloud-hosted Earth datasets that fit their interests.
 
 ## Who Can Participate
 
