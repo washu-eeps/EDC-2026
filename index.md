@@ -40,7 +40,7 @@ We are excited about [Planet Tanager](https://www.planet.com/products/hyperspect
 
 ## Who Can Participate
 
-Open to undergraduates, graduates, and postdocs in any field.
+Open to WashU undergraduates, graduates, and postdocs in any field.
 
 ## Resources
 - [Vibe Coding Guidelines](vibe-coding.md)
