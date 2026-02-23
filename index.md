@@ -25,8 +25,8 @@ All sessions are at **noon in Rudolph 301**.
 | Date | Event |
 |:-----|:------|
 | January 30 | Overview and Exploring Cloud Dataset |
-| February 13 | Jupyter, Git, and Google Earth Engine |
-| February 27 | Questions, Team Formation, and Mentoring |
+| February 13 | Jupyter and Google Earth Engine |
+| February 27 | Git/GitHub, Team Formation, and Mentoring |
 | March 20 | EDC Team Updates, Mentoring, and Questions |
 | April 24 | EDC Team Presentations and Awards |
 
