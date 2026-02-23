@@ -195,7 +195,7 @@ If you pushed it to GitHub before deleting, you can recover it! Ask your instruc
 
 ## More resources
 
-- 4-min overview: https://www.youtube.com/watch?v=v5gnvDUWqFM&t=92s
+- Overview: https://www.youtube.com/watch?v=v5gnvDUWqFM&t=92s
 - Visual explanation: https://www.youtube.com/watch?v=r8jQ9hVA2qs
 - GitHub's intro tutorial: https://docs.github.com/en/get-started/start-your-journey/hello-world
 - Creating your first repo: https://github.blog/developer-skills/github/beginners-guide-to-github-repositories-how-to-create-your-first-repo/
