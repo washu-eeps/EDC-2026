@@ -44,7 +44,7 @@ Each team needs ONE shared GitHub account. Designate one team member to create i
 ### Step 2: Tell Alex B.
 
 Send Alex:
-- Your team name
+- Your team name and members
 - Your team's GitHub username
 
 He will create a repository for your team in the **washu-eeps** organization and add your team's GitHub account as a collaborator. The repo lives in `washu-eeps` (not in your team's account) - your team account is just used for login credentials.
