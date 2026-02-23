@@ -194,7 +194,7 @@ If you pushed it to GitHub before deleting, you can recover it! Ask your instruc
 ---
 
 ## More resources
-- EDC Git intro: https://washu-eeps.github.io/EDC-2026/using-git.html
+
 - 4-min overview: https://www.youtube.com/watch?v=v5gnvDUWqFM&t=92s
 - Visual explanation: https://www.youtube.com/watch?v=r8jQ9hVA2qs
 - GitHub's intro tutorial: https://docs.github.com/en/get-started/start-your-journey/hello-world
