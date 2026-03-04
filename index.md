@@ -8,12 +8,12 @@ The Earth Data Challenge (EDC) is a semester-long, team-based program hosted by 
 
 **EDC is designed as a model for AI-native research training that could be replicated across disciplines.** In EDC, AI is used as a routine part of the workflow rather than an optional tool. Teams use LLMs to accelerate technical work while producing artifacts that are reviewable and reproducible.
 
-In practice, this means teams use AI for:
-- Rapid project framing and scoping (question selection, feasibility checks, clear success criteria)
-- Dataset discovery and access patterns for cloud-hosted Earth data
-- LLM-assisted coding in Python notebooks (implementation, debugging, refactoring, documentation)
-- Structured validation (sanity checks, unit checks, baselines, and sensitivity checks)
-- Reproducible outputs: version-controlled notebooks, fixed environments, and clear provenance of results
+In practice, teams use AI throughout the workflow, including:
+- Framing and scoping projects (defining questions, feasibility checks, success criteria)
+- Discovering and accessing cloud-hosted Earth datasets
+- Writing and debugging Python notebook code with LLM assistance
+- Validating results with sanity checks, baselines, and sensitivity tests
+- Producing reproducible outputs (version-controlled notebooks, fixed environments, documented provenance)
 
 To keep the work transparent:
 - Work is version-controlled in Git/GitHub; code and analyses are reviewable
