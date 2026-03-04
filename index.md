@@ -67,6 +67,7 @@ Open to WashU undergraduates, graduates, and postdocs in any field.
 - [AI-native workflow](ai-workflow.md)
 - [Vibe Coding Guidelines](vibe-coding.md)
 - [Using Git](using-git.md)
+- [WashU AI resources](https://ai.washu.edu/)
 
 ## Contact
 
