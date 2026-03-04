@@ -4,7 +4,24 @@ layout: default
 
 The Earth Data Challenge (EDC) is a semester-long, team-based program hosted by [GRI](https://geospatial.wustl.edu) and [EEPS](https://eeps.wustl.edu), focused on developing skills in AI-assisted workflows, cloud computing, and Earth data analysis. 
 
-No prior experience required. **Register [here](https://docs.google.com/forms/d/e/1FAIpQLSeuG6FXZ98Yiw8Ac5eKnTPhtbIbjQdUIkpY-LNGLEkwWKkHoQ/viewform)** to participate.
+## EDC is a model for AI-native research training
+
+EDC treats AI as a first-class part of the workflow, not an optional add-on. Teams use LLMs to accelerate technical work while producing artifacts that are reviewable and reproducible.
+
+What “AI-native” means in EDC:
+- Rapid project framing and scoping (question selection, feasibility checks, clear success criteria)
+- Dataset discovery and access patterns for cloud-hosted Earth data
+- LLM-assisted coding in Python notebooks (implementation, debugging, refactoring, documentation)
+- Structured validation (sanity checks, unit checks, baselines, and sensitivity checks)
+- Reproducible outputs: version-controlled notebooks, fixed environments, and clear provenance of results
+
+Accountability and guardrails:
+- Work is version-controlled in Git/GitHub; code and analyses are reviewable
+- Teams document major AI-assisted decisions and prompts (lightweight prompt/decision log)
+- Results must be supported by explicit checks and interpretable outputs (not “the model said so”)
+
+Register [here](https://docs.google.com/forms/d/e/1FAIpQLSeuG6FXZ98Yiw8Ac5eKnTPhtbIbjQdUIkpY-LNGLEkwWKkHoQ/viewform) to participate. No prior experience required.
+
 
 ## What EDC will cover
 
