@@ -6,7 +6,7 @@ The Earth Data Challenge (EDC) is a semester-long, team-based program hosted by 
 
 ## EDC is a model for AI-native research training
 
-EDC treats AI as a first-class part of the workflow, not an optional add-on. Teams use LLMs to accelerate technical work while producing artifacts that are reviewable and reproducible.
+**EDC is designed as a model for AI-native research training that could be replicated across disciplines.** EDC treats AI as a first-class part of the workflow, not an optional add-on. Teams use LLMs to accelerate technical work while producing artifacts that are reviewable and reproducible.
 
 What “AI-native” means in EDC:
 - Rapid project framing and scoping (question selection, feasibility checks, clear success criteria)
@@ -20,13 +20,14 @@ Accountability and guardrails:
 - Teams document major AI-assisted decisions and prompts (lightweight prompt/decision log)
 - Results must be supported by explicit checks and interpretable outputs (not “the model said so”)
 
-Register [here](https://docs.google.com/forms/d/e/1FAIpQLSeuG6FXZ98Yiw8Ac5eKnTPhtbIbjQdUIkpY-LNGLEkwWKkHoQ/viewform) to participate. No prior experience required.
+For a detailed description of how AI is integrated into the workflow, see the
+[AI-native workflow documentation](ai-workflow.md).
 
 
 ## What EDC will cover
 
 - Cloud computing with [Google Cloud Platform](https://cloud.google.com/vertex-ai) and [Jupyter notebooks](https://jupyter.org/try-jupyter/lab/)
-- [AI-assisted workflows](vibe-coding.md)
+- [AI-native research workflows](vibe-coding.md)
 - [Google Earth Engine](https://earthengine.google.com/) and Python programming
 - Data analysis and visualization, including [hyperspectral data](https://www.planet.com/products/hyperspectral/) (Planet Tanager)
 - Version control with [Git/GitHub](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
@@ -60,6 +61,7 @@ We are excited about [Planet Tanager](https://www.planet.com/products/hyperspect
 Open to WashU undergraduates, graduates, and postdocs in any field.
 
 ## Resources
+- [AI-native workflow](ai-workflow.md)
 - [Vibe Coding Guidelines](vibe-coding.md)
 - [Using Git](using-git.md)
 
