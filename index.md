@@ -4,7 +4,7 @@ layout: default
 
 The Earth Data Challenge (EDC) is a semester-long, team-based program hosted by [GRI](https://geospatial.wustl.edu) and [EEPS](https://eeps.wustl.edu), focused on developing skills in AI-assisted workflows, cloud computing, and Earth data analysis. 
 
-## EDC is a model for AI-native research training
+## The AI-native workflow used in EDC
 
 **EDC is designed as a model for AI-native research training that could be replicated across disciplines.** In EDC, AI is used as a routine part of the workflow rather than an optional tool. Teams use LLMs to accelerate technical work while producing artifacts that are reviewable and reproducible.
 
@@ -27,7 +27,7 @@ For a detailed description of how AI is integrated into the workflow, see the
 ## What EDC will cover
 
 - Cloud computing with [Google Cloud Platform](https://cloud.google.com/vertex-ai) and [Jupyter notebooks](https://jupyter.org/try-jupyter/lab/), including Vertex AI for hosted model endpoints and scalable notebook workflows
-- AI-native [research workflow model](ai-workflow.md)
+- AI-native [research workflow](ai-workflow.md)
 - Practical [LLM-assisted coding workflow](vibe-coding.md) for teams
 - [Google Earth Engine](https://earthengine.google.com/) and Python programming
 - Data analysis and visualization, including [hyperspectral data](https://www.planet.com/products/hyperspectral/) (Planet Tanager)
