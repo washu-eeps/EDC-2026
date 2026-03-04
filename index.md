@@ -16,8 +16,8 @@ In practice, teams use AI throughout the workflow, including:
 - Producing reproducible outputs (version-controlled notebooks, fixed environments, documented provenance)
 
 To keep the work transparent:
-- Work is version-controlled in Git/GitHub; code and analyses are reviewable
-- Teams document major AI-assisted decisions and prompts (lightweight prompt/decision log)
+- Work is version-controlled in Git/GitHub. Code and analyses are reviewable
+- Teams document major AI-assisted decisions and prompts
 - Results must be supported by explicit checks and interpretable outputs (not “the model said so”)
 
 For a detailed description of how AI is integrated into the workflow, see the
